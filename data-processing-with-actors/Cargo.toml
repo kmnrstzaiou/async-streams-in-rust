@@ -1,0 +1,13 @@
+[package]
+name = "data-processing-with-actors"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.12", features = ["unstable", "attributes", "tokio1"] }
+async-trait = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
+clap = { version = "4.4.18", features = ["derive"] }
+futures = "0.3"
+xactor = "0.7.11"
+yahoo_finance_api = "2.1.0"

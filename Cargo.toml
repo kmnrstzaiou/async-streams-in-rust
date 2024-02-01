@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "transforming-sync-to-async",
+    "async-streaming-on-a-schedule",
+    "data-processing-with-actors",
+    "connecting-actors-to-the-world",
+]
+resolver = "2"
